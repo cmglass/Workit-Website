@@ -1,0 +1,121 @@
+/*
+blue:#2c3d99;
+charcol:#2e3235;
+*/
+
+html{
+	margin: 0px;
+	padding: 0px;
+}
+
+.about_blurb{
+	font-size: 16;
+	margin:0 auto;
+	padding:10px;
+}
+
+.btn{
+	margin:5px;
+}
+
+.light_link{
+	color: #ffffff;
+}
+.light_link:hover{
+	color: #ffffff;
+}
+
+.Main_logo{
+	padding:0px;
+}
+.content_1{
+	color: #ffffff;
+
+}
+.up-right{
+	color:#ffffff;
+	float: right;
+	font-size: 24;
+	margin: 25px;
+
+}
+
+.navbar_state_1{
+	display:none;
+}
+
+.navbar_state_2{
+	display:initial;
+}
+.up-left{
+	color: #ffffff;
+	float: left;
+	font-size: 24;
+	margin: 25px;
+
+}
+.panel_1{
+	background-color: #2e3235;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+.panel_1 .row{
+	margin:0;
+}
+.panel_1 .h2{
+	color: #ffffff;
+}
+
+.feedback{
+	padding-top:50px;
+
+}
+.form-control{
+	margin:5px;
+}
+
+.header_container{
+	background-color: #2c3d99;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.header_content{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
+.team{
+	color: #ffffff;
+	width: 100%;
+	padding-top: 50px;
+	text-align: center;
+	background-color: #2e3235;
+}
+.team_title{
+	color: #ffffff;
+	padding-bottom: 20px;
+	font-family:"Titillium Web",sans-serif;
+}
+
+.title{
+	color:#ffffff;
+	font-size: 240;
+	margin: 0px;
+	padding: 0px;
+	font-family:"Titillium Web",sans-serif;
+}
+
+.tagline{
+	color:#ffffff;
+	font-size: 24;
+	padding-bottom:25px;
+}
+
+
+/* WORKAROUNDS MAY CAUSE FUTURE GLITCHES */
+
+.row{
+	margin-right:0px;
+}

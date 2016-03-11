@@ -1,0 +1,140 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+		<link rel="stylesheet" type="text/css" href="css/workit_style.css">
+
+	</head>
+	<body>
+		<!-- navbar currently not displaying properly see script for details -->
+		<nav class="navbar navbar-default navbar-fixed-top navbar_state_1" role="navigation">
+			<div class = "navbar-header">
+		      <a class = "navbar-brand" href = "#">workIt</a>
+		   </div>
+
+			<div>
+		      <ul class = "nav navbar-nav">
+		         <li class = "active"><a href = "#">About</a></li>
+		         <li><a href = "#">Contact</a></li>
+					
+		         <li class = "dropdown">
+		            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+		               Java 
+		               <b class = "caret"></b>
+		            </a>
+		            
+		            <ul class = "dropdown-menu">
+		               <li><a href = "#">jmeter</a></li>
+		               <li><a href = "#">EJB</a></li>
+		               <li><a href = "#">Jasper Report</a></li>
+		               
+		               <li class = "divider"></li>
+		               <li><a href = "#">Separated link</a></li>
+		               
+		               <li class = "divider"></li>
+		               <li><a href = "#">One more separated link</a></li>
+		            </ul>
+		            
+		         </li>
+					
+		      </ul>
+		   	</div>
+		</nav>
+		<div class="header_container">
+			<div class= "up-right">
+				<a class="light_link" href="#contact_us">Contact Us</a>
+			</div>
+			<div class="light_link up-left">
+				<a class="light_link" href="#team">About Us</a>
+			</div>
+			<div class="header_content">
+				<img src="img/Workit_logo_no_border.jpg">
+				<h1 class="title">workIt</h1>
+				<div class="tagline"> a personal trainer in your pocket</div>
+			</div>
+		</div>
+
+		<div class="panel_1">
+				<div class="row">
+					<div class="content_1 col-sm-2">
+					</div>
+
+					<div class="content_1 col-sm-3">
+						<h2>Self-customizing</h2>
+						<p>The Workit system uses machine learning techniques to learn your specific needs and adapt the workouts it suggests to suit them.  Over time the app will learn how fast you recover from being sore, how easily you build strength, how hard you want to push yourself and your favorite exercises.  All associated with your profile to give you a partner in training. </p>
+
+					</div>
+					<div class="content_1 col-sm-3">
+						<h2> Ramp-up guidance</h2>
+						<p>The app increases difficulty as fast or as slow as you need to keep your workouts effective and interesting.  It uses benchmarks to determine where your comfort level is and then slowly over time introduces new techniques, workouts, and styles to help you meet your workout goals. </p>
+					</div>
+					<div class="content_1 col-sm-3">
+						<h2>Technique Assistance</h2>
+						<p>Many apps tell you what to do workIt also tells you how.  Every exercise it suggests is linked to a description and video of the exercise to give accurate and complete guidance.  Additionally it assists you in taking a video of yourself doing it to compare your form to an experts. </p>
+					</div>
+				</div>
+			
+		</div>
+		<div class="feedback container">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-3">
+				<h2 id="contact_us">
+					Contact Us
+				</h2>
+				<p >
+				Sign up with your email to get updates and news regarding the progress of workIt.  Addionally feel free to leave any suggestions,comments, questions or concerns you may have regarding our app.  You may also email any thoughts to <a href="mailto:contact@workit-app.com?Subject=feeback">contact@workit-app.com</a>
+				</p>
+			</div>
+			<div class="col-sm-4">
+			<h2>Send Us Feedback</h2>
+			<form action ="sendmail.php" method="post">
+				<div class="form-inline">
+					<div class="form-group">
+						<label class="sr-only" for="email_form">Email:</label>
+						<input type="email" name="name" class="form-control form-control-lg" id="email_form">
+					</div>
+					<button type="submit" class="btn btn-primary"> Send</button>
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" name="message" rows="4" id="detals"></textarea>
+				</div>
+			</form>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+		<div class="Team container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1  id="team"class="team_title">The workIt Team</h1>
+					<div class="col-sm-3"></div>
+					<p class="about_blurb col-sm-6">We are a team of three computer science students from the University of Colorado at Boulder.  We have taken our passion for fitness and health and applied it to a an app to help improve the lives of others.</p>
+					<div class="col-sm-3"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="img/Chris.jpg" class="img-circle" width="250">
+					<h2>Chris Glass</h2>
+					<p>Android Devloper</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="img/Dan.jpg" class="img-circle" width="250">
+					<h2>Dan Zurwaski</h2>
+					<p>Android Developer</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="img/Prad.jpg" class="img-circle" width="250">
+					<h2>Prad Kikkeri</h2>
+					<p>Marketing Representative</p>
+				</div>
+				
+			</div>
+		</div>
+
+	</body>
+
+	<script src="js/bootstrap.min.js"></script>		<!-- Bootstrap code- borrowed fro external project-->
+	<script src="js/jquery.js"></script>			<!-- Jquery plugin -->
+	<script src="js/jquery.easing.1.3.js"></script>	<!-- easing animation plugin -->
+	<script src="js/animations.js"></script>		<!-- source for custom animation control -->
+</html>
